@@ -1,0 +1,113 @@
+body {
+  background-color: #ECE0E0;
+}
+
+h2 {
+  color: #312F45;
+  font-size: 36px;
+  font-family: 'Audiowide', sans-serif;
+  text-align: center;
+}
+
+a, a:visited, a:hover{
+  color: #ECE0E0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+
+}
+
+#main {
+  background-color: #ECE0E0;
+}
+
+#menu {
+  background-color: #312F45;
+  font-size: 20px;
+  font-family: 'Maven Pro', sans-serif;
+  color: #ECE0E0;
+  position: fixed;
+  padding: 15px 15px 15px 15px;
+  width: 100%;
+}
+
+#title {
+  background-color: #312F45;
+  opacity: 0.5;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  left: 45%;
+  top: 25%;
+  position: fixed;
+  text-align: center;
+  color: #ECE0E0;
+  font-size: 48px;
+  font-family: 'Audiowide', sans-serif;
+}
+
+#nav_title {
+  color: #ECE0E0;
+  font-size: 20px;
+  font-family: 'Audiowide', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  float: right;
+}
+
+#image {
+  max-height: 400px;
+}
+
+#link, #link:visited, #link:hover {
+  color: #312F45;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
+
+.text {
+  background-color: #ECE0E0;
+  color: #666;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Maven Pro', sans-serif;
+  padding: 20px 80px 40px 80px;
+}
+
+.spoiler {
+  background-color: #312F45;
+  color: #312F45;
+}
+
+.parallax_1 {
+  background-image: url("http://i.imgur.com/PCnFFCw.jpg");
+  height: 750px;
+
+}
+
+.parallax_2 {
+  background-image: url("http://i.imgur.com/tdaijxx.jpg");
+  height: 750px;
+}
+
+.parallax_3 {
+  background-image: url("http://i.imgur.com/H2JNect.jpg");
+  height: 750px;
+}
+
+.parallax_4 {
+  background-image: url("http://i.imgur.com/Y8SUtXB.jpg");
+  height: 750px;
+}
+.parallax_1, .parallax_2, .parallax_3, .parallax_4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

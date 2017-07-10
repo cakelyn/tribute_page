@@ -25,4 +25,20 @@ $(document).ready(function() {
     $(this).css("color", "#312F45");
   });
 
+  // bypass parallax on mobile
+  var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|Opera Mini/i.test(navigator.userAgent);
+  if (isMobile) {
+    $(".parallax_1").css({
+      "background-image": 'url("http://i.imgur.com/q0CmITd.jpg");'
+    });
+    $(".parallax_2").css({
+      "background-image": 'url("http://i.imgur.com/w9fYxvw.jpg");'
+    });
+    $(".parallax_3").css({
+      "background-image": 'url("http://i.imgur.com/5gWIezu.jpg");'
+    });
+    $(".parallax_4").css({
+      "background-image": 'url("http://i.imgur.com/2IczNZg.jpg");'
+    });
+  }
 });

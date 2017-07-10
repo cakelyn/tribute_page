@@ -87,23 +87,19 @@ ul {
 
 @media screen and (max-device-width: 860px) {
   .parallax_1 {
-    background-image: url("http://i.imgur.com/PCnFFCw.jpg");
-    height: 300px;
+    background-image: url("http://i.imgur.com/q0CmITd.jpg");
   }
 
   .parallax_2 {
-    background-image: url("http://i.imgur.com/tdaijxx.jpg");
-    height: 300px;
+    background-image: url("http://i.imgur.com/w9fYxvw.jpg");
   }
 
   .parallax_3 {
-    background-image: url("http://i.imgur.com/H2JNect.jpg");
-    height: 300px;
+    background-image: url("http://i.imgur.com/5gWIezu.jpg");
   }
 
   .parallax_4 {
-    background-image: url("http://i.imgur.com/Y8SUtXB.jpg");
-    height: 300px;
+    background-image: url("http://i.imgur.com/2IczNZg.jpg");
   }
 }
 

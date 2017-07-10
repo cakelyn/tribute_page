@@ -24,35 +24,4 @@ $(document).ready(function() {
     $(this).css("background-color", "#312F45");
     $(this).css("color", "#312F45");
   });
-
-  // bypass parallax on mobile
-  var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|Opera Mini/i.test(navigator.userAgent);
-  if (isMobile) {
-    $(".parallax_1").css({
-      "background-image": 'url("http://i.imgur.com/q0CmITd.jpg");'
-    });
-    $(".parallax_2").css({
-      "background-image": 'url("http://i.imgur.com/w9fYxvw.jpg");'
-    });
-    $(".parallax_3").css({
-      "background-image": 'url("http://i.imgur.com/5gWIezu.jpg");'
-    });
-    $(".parallax_4").css({
-      "background-image": 'url("http://i.imgur.com/2IczNZg.jpg");'
-    });
-  }
-
-  var isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-  if (!isiOS){
-    window.addEventListener('scroll', function(){ // on page scroll
-      requestAnimationFrame(parallaxbubbles);     // call parallaxbubbles() on next available screen paint
-    }, false);
-
-    window.addEventListener('resize', function(){ // on window resize
-      var scrolltop = window.pageYOffset;         // get number of pixels document has scrolled vertically
-      var scrollamount = (scrolltop / (scrollheight-windowheight)) * 100; // get amount scrolled (in %)
-      fish.style.left = -100 + scrollamount + '%'; // set position of fish in percentage (starts at -100%)
-    }, false);
-}
 });

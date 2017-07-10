@@ -1,3 +1,9 @@
+@media only screen and (min-width: 320px) and (max-width: 989px) {
+  .parallax_1, .parallax_2, .parallax_3, .parallax_4 {
+    background-attachment: scroll !important;
+  }
+}
+
 body {
   background-color: #ECE0E0;
 }
